@@ -1,0 +1,103 @@
+html, body {
+    margin: viewport;
+}
+
+.bar {
+    background-color: black;
+    height: 65px;
+    width: auto;
+}
+
+.logo {
+     margin-top: 15px;
+    margin-bottom: 10px;
+}
+header {
+    height: 50px;
+}
+
+.logo {
+    /* float: left; */
+   
+    margin-left: 57px;
+    /* margin-bottom: 55px; */
+    height: 35px;
+    width: auto;
+}
+
+.content {
+    margin-top: 30px;
+    color: white;
+}
+
+.background {
+    height: 400px;
+    background-color: goldenrod;
+    padding: 50px;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30 px;
+}
+
+.row1, .row2 {
+   display: flex;
+   flex-direction: row;
+}
+
+.btn1 {
+    font-size: 10px;
+    color: white;
+    background: goldenrod;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.monitor {
+    height: auto;
+    width:  400px;
+    padding-left: 75px;
+}
+
+.imgHtml, .imgCss, .imgJs {
+    height: 6em;
+    width:  6em;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.main {
+    margin: 10px;
+}
+
+.languages {
+    justify-content: center;
+}
+.row2 {
+    font-size: 11px;
+    align-content: center;
+}
+
+.html, .css, .js {
+    margin: 45px;
+    align-content: center;
+    text-align: center;
+    p {
+        font-size: 9px;
+    }
+}
+
+.btnHtml, .btnCss, .btnJS {
+    padding: 10px;
+    background: white;
+    font-size: 8px;
+
+}
+.bar2   {
+    background-color: black;
+    height: 100px;
+    width: auto;
+}
