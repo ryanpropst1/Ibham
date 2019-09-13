@@ -1,5 +1,5 @@
 // created a variable and initialized it to my name
-let myFullName = "Ryan Propst";
+const myFullName = "Ryan Propst";
 
 //create const varialbe for the total number of states in the US - will not change
 const UNITED_STATES = 50;
@@ -25,7 +25,7 @@ function checkAge(name, age) {
   }
 }
 
-// creates an array of favourite vegetables and assigns it to the variable favVeg
+// creates an array of favorite vegetables and assigns it to the variable favVeg
 let favVeg = [
   "Cavolo Nero",
   "Brussel Sprouts",
@@ -42,29 +42,24 @@ for (var i = 0; i < favVeg.length; i++) {
 
 // variables created with my friends names and fake ages to use for testing with the check age function. These are objects with key value pairs. The Key is the first and the value is second.
 
-var Fritha = {
-  name: "Fritha",
-  age: 19
+var Charles = {
+  name: "Charles",
+  age: 21
 };
 
-var Chris = {
-  name: "Chris",
-  age: 28
+var Abby = {
+  name: "Abby",
+  age: 27
 };
 
-var Steve = {
-  name: "Steve",
-  age: 20
+var James = {
+  name: "James",
+  age: 18
 };
 
-var Miriam = {
-  name: "Miriam",
-  age: 35
-};
-
-var Veronica = {
-  name: "Veronica",
-  age: 40
+var John = {
+  name: "John",
+  age: 17
 };
 
 // variable initialized with an array of my friend objects created  above
@@ -86,3 +81,4 @@ function getLength(anyWord) {
 }
 
 getLength("Hello World");
+
