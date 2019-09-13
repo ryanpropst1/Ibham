@@ -63,7 +63,7 @@ var John = {
 };
 
 // variable initialized with an array of my friend objects created  above
-var myFriends = [Fritha, Chris, Steve, Miriam, Veronica];
+var myFriends = [Charles, Abby, James, John];
 
 for (var i = 0; i < myFriends.length; i++) {
   checkAge(myFriends[i].name, myFriends[i].age);
