@@ -10,7 +10,14 @@
 //Final Solution after research and testing
 
 let zipValRgx = /^\d{5}$/; // validation regex for testing against a zipcode
-let testZip = "35210";
+// let testZip = "35210";
+// let testZip = "59001";
+// let testZip = "853a7";
+// let testZip = "732 32";
+// let testZip = "788876";
+// let testZip = "a923b";
+// let testZip = "59238aa";
+let testZip = "88231";
 
 function validZip(testZip) {
   if (testZip.search(zipValRgx) !== -1) {
