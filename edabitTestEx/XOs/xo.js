@@ -47,7 +47,7 @@ function XO(str) {
     } else if (str[i] == "o") {
       o++;
     } else {
-      return true;
+      let x = o;
     }
     return (x = o ? true : false);
   }
